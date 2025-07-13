@@ -4,8 +4,8 @@ Deployment is one of the one of the kubernetes object used to create, update, ro
 ---
 
 ## Prerequisites:
-1.Aws account 
-2.kubernets cluster
+1.Aws account. 
+2. kuberntes cluster 
 
 ---
 
@@ -33,5 +33,4 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
-
-  '''
+'''
